@@ -1,0 +1,29 @@
+Setter and getter functions:
+VL53L0X_GetLimitCheckEnable
+VL53L0X_GetLimitCheckValue
+VL53L0X_GETPARAMETERFIELD
+VL53L0X_get_total_signal_rate	
+	VL53L0X_get_total_xtalk_rate
+		VL53L0X_GetXTalkCompensationEnable
+VL53L0X_GETDEVICESPECIFICPARAMETER
+
+VL53L0X_calc_sigma_estimate:
+(Functions)
+VL53L0X_calc_timeout_mclks
+	VL53L0X_calc_macro_period_ps
+VL53L0X_isqrt
+VL53L0X_calc_dmax
+
+(Parameters - structures)
+XTalkCompensationRateMegaCps
+FinalRangeTimeoutMicroSecs
+FinalRangeVcselPulsePeriod
+PreRangeTimeoutMicroSecs
+PreRangeVcselPulsePeriod
+
+(Parameters - pRangingMeasurementData)
+AmbientRateRtnMegaCps
+SignalRateRtnMegaCps
+
+
+
